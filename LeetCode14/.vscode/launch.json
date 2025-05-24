@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:LeetCode14}",
+            "name": "Debug LeetCode14",
+            "program": "${workspaceFolder:LeetCode14}/.build/debug/LeetCode14",
+            "preLaunchTask": "swift: Build Debug LeetCode14"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:LeetCode14}",
+            "name": "Release LeetCode14",
+            "program": "${workspaceFolder:LeetCode14}/.build/release/LeetCode14",
+            "preLaunchTask": "swift: Build Release LeetCode14"
+        }
+    ]
+}

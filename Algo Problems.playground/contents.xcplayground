@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='1. Two Sum'/>
+        <page name='9. Palindrome Number'/>
+        <page name='20. Valid Parentheses - Stack'/>
+        <page name='26. Remove Duplicates from Sorted Array'/>
+        <page name='1. Two Sum Recursive Solution'/>
+        <page name='26. Remove Duplicates from Sorted Arrat'/>
+        <page name='14. Longest Common Prefix'/>
+        <page name='13. Roman to Integer'/>
+        <page name='234. Palindrome Linked List'/>
+        <page name='LinkedList'/>
+        <page name='Stacks'/>
+        <page name='Queues'/>
+        <page name='UniqueLetters'/>
+        <page name='Kids with the greatest number of candies'/>
+        <page name='1365. How many numbers are smaller than the current number'/>
+        <page name='1408. String Matching in an Array'/>
+        <page name='1380. Lucky Numbers in a Matrix'/>
+        <page name='Day 1 Not Quite Lisp'/>
+        <page name='Day 1 Not Quite Lisp Part 2'/>
+        <page name='Find Index in a a string'/>
+        <page name='Day 2 I Was Told There Would Be No Math'/>
+        <page name='CompactMap'/>
+    </pages>
+</playground>
