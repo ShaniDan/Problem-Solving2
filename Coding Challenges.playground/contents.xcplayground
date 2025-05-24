@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='1.Unique Letter'/>
+        <page name='2.String Palindrome'/>
+        <page name='3.Same Character'/>
+        <page name='4.String containing another'/>
+        <page name='5.Count the characters'/>
+        <page name='6.Remove duplicates'/>
+        <page name='7.Condense whitespace'/>
+        <page name='8.String rotated'/>
+        <page name='9.Find pangram'/>
+        <page name='10.Vowels and Consonants'/>
+        <page name='11.Three different letters'/>
+        <page name='Untitled Page'/>
+        <page name='12.Find longest prefix'/>
+        <page name='WWDC2024'/>
+        <page name='Even numbers'/>
+    </pages>
+</playground>
