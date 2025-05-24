@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='1.1_2015'/>
+        <page name='1.2_2015'/>
+        <page name='2.1_2015'/>
+        <page name='2.2_2015'/>
+        <page name='3.1_2015'/>
+        <page name='1.1_2024'/>
+        <page name='1.2_2024'/>
+        <page name='2.1_2024'/>
+        <page name='2.2_2024'/>
+        <page name='test'/>
+    </pages>
+</playground>
