@@ -1,0 +1,1455 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Algorithms-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/sources",
+      "importPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/AdjacentPairs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Chain.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Chunked.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Combinations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Compacted.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Cycle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/EitherSequence.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/FirstNonNil.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/FlattenCollection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Grouped.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Indexed.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Intersperse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Joined.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Keyed.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/MinMax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Partition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Permutations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Product.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/RandomSample.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Reductions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Rotate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Split.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Stride.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Suffix.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Trim.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Unique.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Windows.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/RealModule.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Algorithms",
+      "moduleOutputPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/Algorithms.swiftmodule",
+      "objects" : [
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/AdjacentPairs.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Chain.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Chunked.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Combinations.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Compacted.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Cycle.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/EitherSequence.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/FirstNonNil.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/FlattenCollection.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Grouped.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Indexed.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Intersperse.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Joined.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Keyed.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/MinMax.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Partition.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Permutations.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Product.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/RandomSample.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Reductions.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Rotate.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Split.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Stride.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Suffix.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Trim.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Unique.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Windows.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include",
+        "-module-cache-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Algorithms-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings"
+      ],
+      "outputFileMapPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/Algorithms.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/AdjacentPairs.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Chain.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Chunked.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Combinations.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Compacted.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Cycle.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/EitherSequence.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/FirstNonNil.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/FlattenCollection.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Grouped.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Indexed.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Intersperse.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Joined.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Keyed.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/MinMax.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Partition.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Permutations.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Product.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/RandomSample.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Reductions.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Rotate.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Split.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Stride.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Suffix.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Trim.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Unique.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Windows.swift"
+      ],
+      "tempsPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ComplexModule-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/sources",
+      "importPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Arithmetic.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Complex.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Differentiable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/ElementaryFunctions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/RealModule.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ComplexModule",
+      "moduleOutputPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/ComplexModule.swiftmodule",
+      "objects" : [
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/Arithmetic.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/Complex.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/Differentiable.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/ElementaryFunctions.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include",
+        "-module-cache-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/ComplexModule-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings"
+      ],
+      "outputFileMapPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/ComplexModule.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Arithmetic.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Complex.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Differentiable.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/ElementaryFunctions.swift"
+      ],
+      "tempsPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.LeetCode14-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/LeetCode14.build/sources",
+      "importPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/Sources/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/Algorithms.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/LeetCode14.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "LeetCode14",
+      "moduleOutputPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/LeetCode14.swiftmodule",
+      "objects" : [
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/LeetCode14.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include",
+        "-module-cache-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "leetcode14"
+      ],
+      "outputFileMapPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/LeetCode14.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/LeetCode14.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/Sources/main.swift"
+      ],
+      "tempsPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/LeetCode14.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Numerics-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Numerics.build/sources",
+      "importPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/Numerics/Numerics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/ComplexModule.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/RealModule.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Numerics.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Numerics",
+      "moduleOutputPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/Numerics.swiftmodule",
+      "objects" : [
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Numerics.build/Numerics.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include",
+        "-module-cache-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Numerics.build/Numerics-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings"
+      ],
+      "outputFileMapPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Numerics.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/Numerics.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/Numerics/Numerics.swift"
+      ],
+      "tempsPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Numerics.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.RealModule-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/sources",
+      "importPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/AlgebraicField.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/ApproximateEquality.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/AugmentedArithmetic.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Double+Real.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/ElementaryFunctions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float+Real.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float16+Real.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float80+Real.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Real.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/RealFunctions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/_NumericsShims.h"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "RealModule",
+      "moduleOutputPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/RealModule.swiftmodule",
+      "objects" : [
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/AlgebraicField.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/ApproximateEquality.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/AugmentedArithmetic.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/Double+Real.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/ElementaryFunctions.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/Float+Real.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/Float16+Real.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/Float80+Real.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/Real.swift.o",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/RealFunctions.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include",
+        "-module-cache-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/RealModule-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings"
+      ],
+      "outputFileMapPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules/RealModule.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/AlgebraicField.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/ApproximateEquality.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/AugmentedArithmetic.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Double+Real.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/ElementaryFunctions.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float+Real.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float16+Real.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float80+Real.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Real.swift",
+        "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/RealFunctions.swift"
+      ],
+      "tempsPath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Algorithms" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Algorithms",
+      "-incremental",
+      "-c",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/AdjacentPairs.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Chain.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Chunked.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Combinations.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Compacted.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Cycle.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/EitherSequence.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/FirstNonNil.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/FlattenCollection.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Grouped.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Indexed.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Intersperse.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Joined.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Keyed.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/MinMax.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Partition.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Permutations.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Product.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/RandomSample.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Reductions.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Rotate.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Split.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Stride.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Suffix.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Trim.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Unique.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Windows.swift",
+      "-I",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include",
+      "-module-cache-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/Algorithms-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ComplexModule" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ComplexModule",
+      "-incremental",
+      "-c",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Arithmetic.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Complex.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Differentiable.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/ElementaryFunctions.swift",
+      "-I",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include",
+      "-module-cache-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/ComplexModule-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "LeetCode14" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LeetCode14",
+      "-package-name",
+      "leetcode14",
+      "-incremental",
+      "-c",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/Sources/main.swift",
+      "-I",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include",
+      "-module-cache-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "leetcode14",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "Numerics" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Numerics",
+      "-incremental",
+      "-c",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/Numerics/Numerics.swift",
+      "-I",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include",
+      "-module-cache-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Numerics.build/Numerics-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "RealModule" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "RealModule",
+      "-incremental",
+      "-c",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/AlgebraicField.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/ApproximateEquality.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/AugmentedArithmetic.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Double+Real.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/ElementaryFunctions.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float+Real.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float16+Real.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float80+Real.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Real.swift",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/RealFunctions.swift",
+      "-I",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/_NumericsShims/include",
+      "-module-cache-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/RealModule-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Algorithms" : [
+      "RealModule",
+      "_NumericsShims"
+    ],
+    "ComplexModule" : [
+      "RealModule",
+      "_NumericsShims"
+    ],
+    "LeetCode14" : [
+      "Algorithms",
+      "RealModule",
+      "_NumericsShims"
+    ],
+    "Numerics" : [
+      "ComplexModule",
+      "RealModule",
+      "_NumericsShims"
+    ],
+    "RealModule" : [
+      "_NumericsShims"
+    ],
+    "_NumericsShims" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/AdjacentPairs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Chain.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Chunked.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Combinations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Compacted.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Cycle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/EitherSequence.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/FirstNonNil.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/FlattenCollection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Grouped.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Indexed.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Intersperse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Joined.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Keyed.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/MinMax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Partition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Permutations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Product.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/RandomSample.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Reductions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Rotate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Split.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Stride.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Suffix.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Trim.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Unique.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-algorithms/Sources/Algorithms/Windows.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Algorithms.build/sources"
+    },
+    "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Arithmetic.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Complex.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/Differentiable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/ComplexModule/ElementaryFunctions.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/ComplexModule.build/sources"
+    },
+    "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/LeetCode14.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/Sources/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/LeetCode14.build/sources"
+    },
+    "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Numerics.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/Numerics/Numerics.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/Numerics.build/sources"
+    },
+    "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/AlgebraicField.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/ApproximateEquality.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/AugmentedArithmetic.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Double+Real.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/ElementaryFunctions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float+Real.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float16+Real.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Float80+Real.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/Real.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/checkouts/swift-numerics/Sources/RealModule/RealFunctions.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/RealModule.build/sources"
+    },
+    "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

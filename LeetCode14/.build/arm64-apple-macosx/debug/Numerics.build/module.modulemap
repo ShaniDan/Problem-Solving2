@@ -1,0 +1,4 @@
+module Numerics {
+    header "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/Numerics.build/Numerics-Swift.h"
+    requires objc
+}

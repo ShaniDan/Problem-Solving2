@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/LeetCode14.build/master.swiftdeps"
+  },
+  "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/Sources/main.swift": {
+    "dependencies": "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/LeetCode14.build/main.d",
+    "object": "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/LeetCode14.build/main.swift.o",
+    "swiftmodule": "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/LeetCode14.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/LeetCode14.build/main.swiftdeps"
+  }
+}

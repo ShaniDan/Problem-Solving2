@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/Numerics.build/master.swiftdeps"
+  },
+  "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/checkouts/swift-numerics/Sources/Numerics/Numerics.swift": {
+    "dependencies": "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/Numerics.build/Numerics.d",
+    "object": "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/Numerics.build/Numerics.swift.o",
+    "swiftmodule": "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/Numerics.build/Numerics~partial.swiftmodule",
+    "swift-dependencies": "/Users/shakhnozamirabzalova/Developer/Problem-Solving2/LeetCode14/.build/arm64-apple-macosx/debug/Numerics.build/Numerics.swiftdeps"
+  }
+}
