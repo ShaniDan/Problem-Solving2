@@ -21,12 +21,16 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0AA73CEB21EBF8C5007C2AF9 /* ChallengeTestCaseStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA73CEA21EBF8C5007C2AF9 /* ChallengeTestCaseStack.swift */; };
 		0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822D21E86A5A0008D749 /* Stack.swift */; };
 		0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822F21E86AB20008D749 /* StackTestCase.swift */; };
+		251D4C742E1C501200F98C78 /* SortingAlgorithmsBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251D4C732E1C501200F98C78 /* SortingAlgorithmsBubble.swift */; };
+		251D4C762E1C501600F98C78 /* SortingTestCaseBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251D4C752E1C501600F98C78 /* SortingTestCaseBubble.swift */; };
+		251D4C7A2E1C757F00F98C78 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251D4C792E1C757F00F98C78 /* BinaryTree.swift */; };
+		251D4C7C2E1C758300F98C78 /* BinaryTreeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251D4C7B2E1C758300F98C78 /* BinaryTreeTestCase.swift */; };
 		2581DAB02E15AEF6000C1A42 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2581DAAF2E15AEF6000C1A42 /* Queue.swift */; };
 		2581DAB22E15AEFF000C1A42 /* QueueTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2581DAB12E15AEFF000C1A42 /* QueueTestCase.swift */; };
-		2581DAB42E15BCFB000C1A42 /* ChallengeTestCaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2581DAB32E15BCFB000C1A42 /* ChallengeTestCaseQueue.swift */; };
+		2581DAD22E1C33E2000C1A42 /* SortingTestCaseMerge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2581DAD12E1C33E2000C1A42 /* SortingTestCaseMerge.swift */; };
+		2581DAD52E1C34FC000C1A42 /* SortingAlgorithmsMerge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2581DAD42E1C34FC000C1A42 /* SortingAlgorithmsMerge.swift */; };
 		OBJ_26 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_39 /* DataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "DataStructures::DataStructures::Product" /* DataStructures.framework */; };
 /* End PBXBuildFile section */
@@ -49,12 +53,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AA73CEA21EBF8C5007C2AF9 /* ChallengeTestCaseStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseStack.swift; sourceTree = "<group>"; };
 		0ABC822D21E86A5A0008D749 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		0ABC822F21E86AB20008D749 /* StackTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestCase.swift; sourceTree = "<group>"; };
+		251D4C712E1C4F9C00F98C78 /* ChallengeTestCaseStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseStack.swift; sourceTree = "<group>"; };
+		251D4C722E1C4FC800F98C78 /* ChallengeTestCaseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseQueue.swift; sourceTree = "<group>"; };
+		251D4C732E1C501200F98C78 /* SortingAlgorithmsBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmsBubble.swift; sourceTree = "<group>"; };
+		251D4C752E1C501600F98C78 /* SortingTestCaseBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTestCaseBubble.swift; sourceTree = "<group>"; };
+		251D4C792E1C757F00F98C78 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		251D4C7B2E1C758300F98C78 /* BinaryTreeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTestCase.swift; sourceTree = "<group>"; };
 		2581DAAF2E15AEF6000C1A42 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		2581DAB12E15AEFF000C1A42 /* QueueTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTestCase.swift; sourceTree = "<group>"; };
-		2581DAB32E15BCFB000C1A42 /* ChallengeTestCaseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseQueue.swift; sourceTree = "<group>"; };
+		2581DAD12E1C33E2000C1A42 /* SortingTestCaseMerge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTestCaseMerge.swift; sourceTree = "<group>"; };
+		2581DAD42E1C34FC000C1A42 /* SortingAlgorithmsMerge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmsMerge.swift; sourceTree = "<group>"; };
 		"DataStructures::DataStructures::Product" /* DataStructures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DataStructures::DataStructuresTests::Product" /* DataStructuresTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -79,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		251D4C702E1C4F8900F98C78 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				251D4C712E1C4F9C00F98C78 /* ChallengeTestCaseStack.swift */,
+				251D4C722E1C4FC800F98C78 /* ChallengeTestCaseQueue.swift */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
 		OBJ_11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +110,7 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				251D4C702E1C4F8900F98C78 /* Challenge */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_9 /* Tests */,
@@ -103,6 +123,9 @@
 			children = (
 				0ABC822D21E86A5A0008D749 /* Stack.swift */,
 				2581DAAF2E15AEF6000C1A42 /* Queue.swift */,
+				2581DAD42E1C34FC000C1A42 /* SortingAlgorithmsMerge.swift */,
+				251D4C732E1C501200F98C78 /* SortingAlgorithmsBubble.swift */,
+				251D4C792E1C757F00F98C78 /* BinaryTree.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -112,8 +135,9 @@
 			children = (
 				0ABC822F21E86AB20008D749 /* StackTestCase.swift */,
 				2581DAB12E15AEFF000C1A42 /* QueueTestCase.swift */,
-				0AA73CEA21EBF8C5007C2AF9 /* ChallengeTestCaseStack.swift */,
-				2581DAB32E15BCFB000C1A42 /* ChallengeTestCaseQueue.swift */,
+				2581DAD12E1C33E2000C1A42 /* SortingTestCaseMerge.swift */,
+				251D4C752E1C501600F98C78 /* SortingTestCaseBubble.swift */,
+				251D4C7B2E1C758300F98C78 /* BinaryTreeTestCase.swift */,
 			);
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -204,6 +228,9 @@
 			files = (
 				0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */,
 				2581DAB02E15AEF6000C1A42 /* Queue.swift in Sources */,
+				251D4C7A2E1C757F00F98C78 /* BinaryTree.swift in Sources */,
+				251D4C742E1C501200F98C78 /* SortingAlgorithmsBubble.swift in Sources */,
+				2581DAD52E1C34FC000C1A42 /* SortingAlgorithmsMerge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +247,9 @@
 			buildActionMask = 0;
 			files = (
 				0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */,
-				2581DAB42E15BCFB000C1A42 /* ChallengeTestCaseQueue.swift in Sources */,
-				0AA73CEB21EBF8C5007C2AF9 /* ChallengeTestCaseStack.swift in Sources */,
+				2581DAD22E1C33E2000C1A42 /* SortingTestCaseMerge.swift in Sources */,
+				251D4C762E1C501600F98C78 /* SortingTestCaseBubble.swift in Sources */,
+				251D4C7C2E1C758300F98C78 /* BinaryTreeTestCase.swift in Sources */,
 				2581DAB22E15AEFF000C1A42 /* QueueTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
