@@ -26,7 +26,19 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-
+class BinaryNode<Element> {
+    // all trees have a value
+    var value: Element
+    // each parent can have at most two child nodes
+    var leftChild: BinaryNode?
+    var rightChild: BinaryNode?
+    
+    init(value: Element) {
+        self.value = value
+    }
+    
+    
+}
 
 //extension BinaryNode: CustomStringConvertible {
 //  //Note: This algorithm is based on an implementation by Károly Lőrentey in his book Optimizing Collections, available from https://www.objc.io/books/optimizing-collections/.

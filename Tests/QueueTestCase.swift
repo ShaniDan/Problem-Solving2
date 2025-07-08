@@ -63,8 +63,8 @@ final class QueueTestCase: XCTestCase {
   func test_dequeueStack() {
       queueStack.dequeue()
       queueStack.dequeue()
-      XCTAssertEqual(queueArray.peek, "Ozma")
+      XCTAssertEqual(queueStack.peek, "Ozma")
       queueStack.dequeue()
-      XCTAssertTrue(queueArray.isEmpty)
+      XCTAssertTrue(queueStack.isEmpty)
   }
 }

@@ -36,4 +36,10 @@ final class SortingTestCaseMerge: XCTestCase {
   func test() {
     XCTAssertEqual(mergeSort(testArray), sortedArray)
   }
+    
+//    func testSelectionSort() {
+//        var newArray = testArray
+//        selectionSort(&newArray)
+//        XCTAssertEqual(newArray, sortedArray)
+//    }
 }

@@ -52,7 +52,6 @@ func bubbleSort<Element: Comparable>(_ array: inout [Element]) {
 }
 
 func selectionSort<Element: Comparable>(_ array: inout [Element]) {
-    
     guard array.count >= 2 else {
         return
     }
@@ -63,15 +62,20 @@ func selectionSort<Element: Comparable>(_ array: inout [Element]) {
         var lowest = current
         
         for other in (current + 1)..<array.count {
+            print("\tIndex: \(other), Value: \(array[other])")
+
             if array[lowest] > array[other] {
                     lowest = other
             }
         }
         if lowest != current {
+            print("\tSwapping \(lowest)(\(array[lowest])) and \(current)(\(array[current]))")
             array.swapAt(lowest, current)
         }
+        print("Current array: \(array)")
     }
 }
+//print(selectionSort())
 
 func insertionSort<Element: Comparable>(_ array: inout [Element]) {
     guard array.count >= 2 else {

@@ -35,6 +35,8 @@ final class SortingTestCaseBubble: XCTestCase {
   
   override func setUp() {
     testArray = [9, 4, 10, 3]
+      // [3, 4, 10, 9]
+      // [3, 4, 9, 10]
   }
   
   func test_bubbleSort() {
