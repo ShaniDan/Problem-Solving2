@@ -31,6 +31,9 @@
 		2581DAB22E15AEFF000C1A42 /* QueueTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2581DAB12E15AEFF000C1A42 /* QueueTestCase.swift */; };
 		2581DAD22E1C33E2000C1A42 /* SortingTestCaseMerge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2581DAD12E1C33E2000C1A42 /* SortingTestCaseMerge.swift */; };
 		2581DAD52E1C34FC000C1A42 /* SortingAlgorithmsMerge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2581DAD42E1C34FC000C1A42 /* SortingAlgorithmsMerge.swift */; };
+		25CB82F02E1EF3570025C97F /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB82EF2E1EF3570025C97F /* BinarySearch.swift */; };
+		25CB82F22E1EF3610025C97F /* BinarySearchTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB82F12E1EF3610025C97F /* BinarySearchTestCase.swift */; };
+		25CB82F42E1EFCF60025C97F /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB82F32E1EFCF60025C97F /* LinkedList.swift */; };
 		OBJ_26 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_39 /* DataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "DataStructures::DataStructures::Product" /* DataStructures.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +68,9 @@
 		2581DAB12E15AEFF000C1A42 /* QueueTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTestCase.swift; sourceTree = "<group>"; };
 		2581DAD12E1C33E2000C1A42 /* SortingTestCaseMerge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTestCaseMerge.swift; sourceTree = "<group>"; };
 		2581DAD42E1C34FC000C1A42 /* SortingAlgorithmsMerge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmsMerge.swift; sourceTree = "<group>"; };
+		25CB82EF2E1EF3570025C97F /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		25CB82F12E1EF3610025C97F /* BinarySearchTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTestCase.swift; sourceTree = "<group>"; };
+		25CB82F32E1EFCF60025C97F /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		"DataStructures::DataStructures::Product" /* DataStructures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DataStructures::DataStructuresTests::Product" /* DataStructuresTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -126,6 +132,8 @@
 				2581DAD42E1C34FC000C1A42 /* SortingAlgorithmsMerge.swift */,
 				251D4C732E1C501200F98C78 /* SortingAlgorithmsBubble.swift */,
 				251D4C792E1C757F00F98C78 /* BinaryTree.swift */,
+				25CB82EF2E1EF3570025C97F /* BinarySearch.swift */,
+				25CB82F32E1EFCF60025C97F /* LinkedList.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -138,6 +146,7 @@
 				2581DAD12E1C33E2000C1A42 /* SortingTestCaseMerge.swift */,
 				251D4C752E1C501600F98C78 /* SortingTestCaseBubble.swift */,
 				251D4C7B2E1C758300F98C78 /* BinaryTreeTestCase.swift */,
+				25CB82F12E1EF3610025C97F /* BinarySearchTestCase.swift */,
 			);
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -228,9 +237,11 @@
 			files = (
 				0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */,
 				2581DAB02E15AEF6000C1A42 /* Queue.swift in Sources */,
+				25CB82F02E1EF3570025C97F /* BinarySearch.swift in Sources */,
 				251D4C7A2E1C757F00F98C78 /* BinaryTree.swift in Sources */,
 				251D4C742E1C501200F98C78 /* SortingAlgorithmsBubble.swift in Sources */,
 				2581DAD52E1C34FC000C1A42 /* SortingAlgorithmsMerge.swift in Sources */,
+				25CB82F42E1EFCF60025C97F /* LinkedList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				25CB82F22E1EF3610025C97F /* BinarySearchTestCase.swift in Sources */,
 				0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */,
 				2581DAD22E1C33E2000C1A42 /* SortingTestCaseMerge.swift in Sources */,
 				251D4C762E1C501600F98C78 /* SortingTestCaseBubble.swift in Sources */,

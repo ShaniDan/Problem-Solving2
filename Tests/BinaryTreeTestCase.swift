@@ -29,6 +29,32 @@
 import XCTest
 @testable import DataStructures
 
+// Big O(n) space cost
+func serialize<T>(_ node: BinaryNode<T>) -> [T?] {
+    var array: [T?] = []
+    node.traversePreOrder { array.append($0) }
+    return array
+}
+
+// deserialize function takes in immutable array and returns an optional binary node which would be our tree 🌳
+func deserialize<T>(_ array: inout[T?]) -> BinaryNode<T>? {
+    guard let value = array.removeLast() else {
+        return nil
+    }
+    
+    let node = BinaryNode(value: value)
+    // call left and right child by recursively calling deserialize
+    node.leftChild = deserialize(&array)
+    node.rightChild = deserialize(&array)
+    return node
+}
+
+func deserialize<T>(_ array: [T?]) -> BinaryNode<T>? {
+    var reversed = Array(array.reversed())
+    return deserialize(&reversed)
+}
+
+
 final class BinaryTreeTestCase: XCTestCase {
   //TODO: Create a tree here! 🌳
     var tree: BinaryNode<Int> = {
@@ -49,6 +75,11 @@ final class BinaryTreeTestCase: XCTestCase {
   
     func test_serialize() {
       let expectedArray = [7, 1, 0, nil, nil, 5, nil, nil, 9, 8, nil, nil, nil]
+      let serializedTree = serialize(tree)
+        XCTAssertEqual(serializedTree, expectedArray)
+        let deserializedArray = deserialize(serializedTree)
+        XCTAssertEqual(deserializedArray?.description, tree.description)
+        
     }
     
   func test_visualizeBinaryTree() {
@@ -63,7 +94,7 @@ final class BinaryTreeTestCase: XCTestCase {
   
   func test_traversePreOrder() {
       var testArray: [Int] = []
-      tree.traversePreOrder { testArray.append($0) }
+      tree.traversePreOrder { testArray.append($0!) }
       XCTAssertEqual(testArray, [7, 1, 0, 5, 9, 8])
   }
   
