@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		0ABC822E21E86A5A0008D749 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822D21E86A5A0008D749 /* Stack.swift */; };
 		0ABC823121E86AC90008D749 /* StackTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC822F21E86AB20008D749 /* StackTestCase.swift */; };
+		25028DB52E21B8C80074B1CE /* LinkedListTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25028DB42E21B8C80074B1CE /* LinkedListTestCase.swift */; };
 		251D4C742E1C501200F98C78 /* SortingAlgorithmsBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251D4C732E1C501200F98C78 /* SortingAlgorithmsBubble.swift */; };
 		251D4C762E1C501600F98C78 /* SortingTestCaseBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251D4C752E1C501600F98C78 /* SortingTestCaseBubble.swift */; };
 		251D4C7A2E1C757F00F98C78 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251D4C792E1C757F00F98C78 /* BinaryTree.swift */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		0ABC822D21E86A5A0008D749 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		0ABC822F21E86AB20008D749 /* StackTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestCase.swift; sourceTree = "<group>"; };
+		25028DB42E21B8C80074B1CE /* LinkedListTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTestCase.swift; sourceTree = "<group>"; };
 		251D4C712E1C4F9C00F98C78 /* ChallengeTestCaseStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseStack.swift; sourceTree = "<group>"; };
 		251D4C722E1C4FC800F98C78 /* ChallengeTestCaseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTestCaseQueue.swift; sourceTree = "<group>"; };
 		251D4C732E1C501200F98C78 /* SortingAlgorithmsBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithmsBubble.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				251D4C752E1C501600F98C78 /* SortingTestCaseBubble.swift */,
 				251D4C7B2E1C758300F98C78 /* BinaryTreeTestCase.swift */,
 				25CB82F12E1EF3610025C97F /* BinarySearchTestCase.swift */,
+				25028DB42E21B8C80074B1CE /* LinkedListTestCase.swift */,
 			);
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -263,6 +266,7 @@
 				251D4C762E1C501600F98C78 /* SortingTestCaseBubble.swift in Sources */,
 				251D4C7C2E1C758300F98C78 /* BinaryTreeTestCase.swift in Sources */,
 				2581DAB22E15AEFF000C1A42 /* QueueTestCase.swift in Sources */,
+				25028DB52E21B8C80074B1CE /* LinkedListTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

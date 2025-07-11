@@ -1,4 +1,4 @@
-/// Copyright (c) 2025 Razeware LLC
+/// Copyright (c) 2019 Razeware LLC
 /// 
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
 /// of this software and associated documentation files (the "Software"), to deal
@@ -26,42 +26,25 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-import Foundation
+import XCTest
+@testable import DataStructures
 
-public class Node<Value> {
-    
-    public var value: Value
-    public var next: Node?
-    
-    public init(value: Value, next: Node? = nil) {
-        self.value = value
-        self.next = next
-    }
+final class LinkedListTestCase: XCTestCase {
+  func test_linkedList() {
+      let node1 = Node(value: 1)
+      let node2 = Node(value: 2)
+      let node3 = Node(value: 3)
+      
+      node1.next = node2
+      node2.next = node3
+      
+      print(node1)
+      
+      XCTAssertEqual(node1.value(at: 0), 1)
+      XCTAssertEqual(node1.value(at: 1), 2)
+      XCTAssertEqual(node1.value(at: 2), 3)
+      XCTAssertNil(node1.value(at: 5))  // Index out of range should return nil
+  }
 }
 
-extension Node: CustomStringConvertible {
-    
-    public var description: String {
-        guard let next else {
-            return "\(value)"
-        }
-        return "\(value) -> " + String(describing: next) + ""
-    }
-}
-
-extension Node {
-    func value(at index: Int) -> Value? {
-        var current: Node? = self
-        var currentIndex = 0
-        
-        while let node = current {
-            if currentIndex == index {
-                return node.value
-            }
-            current = node.next
-            currentIndex += 1
-        }
-        return nil
-    }
-}
 
