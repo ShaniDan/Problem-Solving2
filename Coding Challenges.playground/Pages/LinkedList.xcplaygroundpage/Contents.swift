@@ -17,6 +17,7 @@ var greeting = "Hello, playground"
  next line means if next exists, return a string that includes -> the current value
  next line is calling the .description on the next node recursively
  */
+
 public class Node<Value> {
     
     public var value: Value
@@ -31,8 +32,55 @@ public class Node<Value> {
 extension Node: CustomStringConvertible {
     public var description: String {
         guard let next else {
-            return "\(value)"
+            return "(\(value))"
         }
-        return "\(value) ->" + String(describing: next) + " "
+        return "(\(value)) -> \(next) "
     }
 }
+
+public struct LinkedList<Value> {
+    public var head: Node<Value>?
+    public var tail: Node<Value>?
+    
+    public init() {}
+    
+    public var isEmpty: Bool {
+        head == nil
+    }
+}
+
+let node3 = Node<String>(value: "three")
+let node2 = Node<String>(value: "two", next: node3)
+let node1 = Node<String>(value: "one", next: node2)
+
+print(node1)
+
+extension LinkedList: CustomStringConvertible {
+    
+    public var description: String {
+        guard let head else {
+            return "Empty list"
+        }
+        return String(describing: head)
+    }
+}
+
+/* NOTE: There are 3 ways to add values to a linked list, each having unique performance characteristics:
+    1. push: Adds a value at the front of the list
+    2. append: Adds a value at the end of the list
+    3. insert(after:): Adds a value after a particular list node.
+ */
+
+/* NOTE: PUSH OPERATIONS
+        Head-first insertion
+ */
+
+public func push(_ value: Value) {
+    head = Node(value: value, next: head)
+    
+    if tail == nil {
+        tail = head
+    }
+}
+
+
