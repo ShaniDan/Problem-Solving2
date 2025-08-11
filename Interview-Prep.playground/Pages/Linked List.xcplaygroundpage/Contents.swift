@@ -18,6 +18,9 @@ var greeting = "Hello, playground"
  next line is calling the .description on the next node recursively
  */
 
+
+// Value in the below code uses generic type parameter that can be anything such as Int, String or MyCustomeClass
+
 public class Node<Value> {
     
     public var value: Value
@@ -75,11 +78,63 @@ extension LinkedList: CustomStringConvertible {
         Head-first insertion
  */
 
-public func push(_ value: Value) {
-    head = Node(value: value, next: head)
-    
-    if tail == nil {
-        tail = head
+//public func push(_ value: Value) {
+//    head = Node(value: value, next: head)
+//    
+//    if tail == nil {
+//        tail = head
+//    }
+//}
+
+
+// link to the youtube tutorial - https://www.youtube.com/watch?v=IpB6UE5syQU&list=PLpu4BAmG9T1qCvGW6JH3hjfW7A1D8bUEH&index=3
+
+// explain this to a mentor
+
+public class LLNode<T> {
+    // value that contains a value for each of the node and it can be any type because <T> is a generic.
+    var value: T
+    // next is a connector to the next node. "?" optional represents "no node" state safely
+    var next: LLNode?
+    var previous: LLNode?
+    // initializer is needed if not all stored properties have default values. The initializer is responsible for ensuring all stored properties are assigned a value before the initializer completes.
+    public init(value: T) {
+        // MARK: Ask Mikeala to expand on self
+        self.value = value
     }
 }
 
+["test1", "test2", "test3"]
+
+// define a linked List
+
+public class LinkedList2<T> {
+    public typealias Node = LLNode<T>
+    private var head: Node?
+    
+    public var first: Node? {
+        return head
+    }
+    
+    public var last: Node? {
+        // check if the head exists in the node
+        guard var node = head else { return nil }
+        while let next = node.next {
+            node = next
+        }
+        return node
+    }
+}
+
+// this custom struct can be passed to the list below
+//struct hello {
+//    var string: String
+//}
+
+// you can pass in the custom struct to below
+// because the class LinkedList is a generic it's versatile and can take any type
+// we are assigning LinkedList class to the list
+
+let list = LinkedList2<String>()
+list.first // this will return nil
+list.last // will return nil as well
