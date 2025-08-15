@@ -21,52 +21,52 @@ var greeting = "Hello, playground"
 
 // Value in the below code uses generic type parameter that can be anything such as Int, String or MyCustomeClass
 
-public class Node<Value> {
-    
-    public var value: Value
-    public var next: Node?
-    
-    public init(value: Value, next: Node? = nil) {
-        self.value = value
-        self.next = next
-    }
-}
-
-extension Node: CustomStringConvertible {
-    public var description: String {
-        guard let next else {
-            return "(\(value))"
-        }
-        return "(\(value)) -> \(next) "
-    }
-}
-
-public struct LinkedList<Value> {
-    public var head: Node<Value>?
-    public var tail: Node<Value>?
-    
-    public init() {}
-    
-    public var isEmpty: Bool {
-        head == nil
-    }
-}
-
-let node3 = Node<String>(value: "three")
-let node2 = Node<String>(value: "two", next: node3)
-let node1 = Node<String>(value: "one", next: node2)
-
-print(node1)
-
-extension LinkedList: CustomStringConvertible {
-    
-    public var description: String {
-        guard let head else {
-            return "Empty list"
-        }
-        return String(describing: head)
-    }
-}
+//public class Node<Value> {
+//    
+//    public var value: Value
+//    public var next: Node?
+//    
+//    public init(value: Value, next: Node? = nil) {
+//        self.value = value
+//        self.next = next
+//    }
+//}
+//
+//extension Node: CustomStringConvertible {
+//    public var description: String {
+//        guard let next else {
+//            return "(\(value))"
+//        }
+//        return "(\(value)) -> \(next) "
+//    }
+//}
+//
+//public struct LinkedList<Value> {
+//    public var head: Node<Value>?
+//    public var tail: Node<Value>?
+//    
+//    public init() {}
+//    
+//    public var isEmpty: Bool {
+//        head == nil
+//    }
+//}
+//
+//let node3 = Node<String>(value: "three")
+//let node2 = Node<String>(value: "two", next: node3)
+//let node1 = Node<String>(value: "one", next: node2)
+//
+//print(node1)
+//
+//extension LinkedList: CustomStringConvertible {
+//    
+//    public var description: String {
+//        guard let head else {
+//            return "Empty list"
+//        }
+//        return String(describing: head)
+//    }
+//}
 
 /* NOTE: There are 3 ways to add values to a linked list, each having unique performance characteristics:
     1. push: Adds a value at the front of the list
@@ -97,9 +97,11 @@ public class LLNode<T> {
     // next is a connector to the next node. "?" optional represents "no node" state safely
     var next: LLNode?
     var previous: LLNode?
+    
     // initializer is needed if not all stored properties have default values. The initializer is responsible for ensuring all stored properties are assigned a value before the initializer completes.
+    
     public init(value: T) {
-        // MARK: Ask Mikeala to expand on self
+                
         self.value = value
     }
 }
@@ -124,7 +126,24 @@ public class LinkedList2<T> {
         }
         return node
     }
+    
+    
+    // appending nodes to the linked list
+
+    public func append(value: T) {
+        // newNode is equal to Node that takes the value of T so we'll pass in the value
+        let newNode = Node(value: value)
+        if let lastNode = last {
+            // one node in the list
+            newNode.previous = lastNode
+            lastNode.next = newNode
+        } else {
+            // no nodes in list
+            head = newNode
+        }
+    }
 }
+
 
 // this custom struct can be passed to the list below
 //struct hello {
@@ -138,3 +157,5 @@ public class LinkedList2<T> {
 let list = LinkedList2<String>()
 list.first // this will return nil
 list.last // will return nil as well
+// we'll pass in string because that's what we assigned in the list
+list.append(value: "some text")
