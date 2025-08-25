@@ -4,3 +4,4 @@
 **/xcuserdata/
 *.xcuserstate
 *.xctimeline
+.DS_Store
