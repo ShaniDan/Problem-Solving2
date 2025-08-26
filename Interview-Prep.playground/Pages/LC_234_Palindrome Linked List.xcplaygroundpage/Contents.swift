@@ -2,6 +2,16 @@ import UIKit
 
 var greeting = "Hello, playground"
 
+let number = 1
+let name = "Taylor Swift"
+let age = "35"
+
+let lastName = "Swift"
+print("Hello, \(name) Your age is \(Int(age))")
+
+
+
+
 /*
  Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
 
