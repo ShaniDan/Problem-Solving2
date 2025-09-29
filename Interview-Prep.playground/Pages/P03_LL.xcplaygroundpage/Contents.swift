@@ -54,6 +54,18 @@ extension List {
     }
 }
 
+extension List {
+    /* A subscript is syntactic sugar for accessing data with []
+       Arrays and dictionaries already use it
+     •    array[0] calls the subscript(_:) on Array.
+     •    dictionary["key"] calls the subscript(_:) on Dictionary.
+     By adding it to the List, I make the linked list feel like an aray, so I can write list[2] instead of calling a method
+     */
+    subscript(index: Int) -> T? {
+        
+    }
+}
+
 // Create nodes
 let node1 = List(value: 1)
 let node2 = List(value: 2)
