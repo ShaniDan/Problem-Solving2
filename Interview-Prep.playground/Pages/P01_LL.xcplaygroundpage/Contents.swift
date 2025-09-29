@@ -38,6 +38,10 @@ let node4 = List(value: 3)
 let node5 = List(value: 5)
 let node6 = List(value: 8)
 
+//let node1 = List(value: "One")
+//let node2 = List(value: "Two")
+//let node3 = List(value: "Three")
+
 // Link nodes, that's how the nodes are linked
 node1.next = node2
 node2.next = node3
@@ -46,7 +50,7 @@ node4.next = node5
 node5.next = node6
 
 // Get the last element
-print(node1.last!)
+//print(node1.last!)
 
 
 
