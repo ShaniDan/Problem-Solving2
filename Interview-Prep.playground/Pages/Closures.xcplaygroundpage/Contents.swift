@@ -20,7 +20,7 @@ let thirdAdd = { (a: Int, b: Int) -> Int in return a + b }
 let fourthAdd: (Int, Int) -> Int = { $0 + $1 }
 
 
-print(firstAdd(2, 3))
-print(secondAdd(2, 2))
-print(thirdAdd(2, 2))
-print(fourthAdd(2, 2))
+//print(firstAdd(2, 3))
+//print(secondAdd(2, 2))
+//print(thirdAdd(2, 2))
+//print(fourthAdd(2, 2))

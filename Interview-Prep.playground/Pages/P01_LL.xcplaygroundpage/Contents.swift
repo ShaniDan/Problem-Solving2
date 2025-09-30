@@ -9,7 +9,9 @@ var greeting = "Hello, playground"
 // MARK: Find the last element of a linked list.
 
 // Define the linked list class, <T>  means it can be type of any
+// doubly linked list - previous
 class List<T> {
+    
     var value: T
     var next: List<T>?
     
@@ -22,7 +24,10 @@ class List<T> {
 
 extension List {
     var last: T? {
+        // Macro #function
+        print(#function, "Current node: \(value)")
         if let next = next {
+            // this one is calling the value recurse
             return next.last
         } else {
             return value
@@ -50,7 +55,7 @@ node4.next = node5
 node5.next = node6
 
 // Get the last element
-//print(node1.last!)
+print(node1.last!)
 
 
 

@@ -35,4 +35,4 @@ extension List where T: Collection {
 
 let list = List(value: [1, 2, 3, 4])
 
-print(list.pennultimate()!)
+//print(list.pennultimate()!)

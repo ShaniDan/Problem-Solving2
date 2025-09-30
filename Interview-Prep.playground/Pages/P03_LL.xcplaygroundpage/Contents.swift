@@ -33,19 +33,18 @@ class List<T> {
     }
 }
 
+// accessing the value in the node
 extension List {
     var first: T? {
-//        if let nextNode != next {
         return value
-//        } else {
-//            return value
-//        }
     }
 }
 
 // MARK: This is how to move to the next node
+// I can use function instead extension
 extension List {
     var second: T? {
+        //
         if let nextNode = next {
             return nextNode.value
         } else {
@@ -61,23 +60,26 @@ extension List {
      •    dictionary["key"] calls the subscript(_:) on Dictionary.
      By adding it to the List, I make the linked list feel like an aray, so I can write list[2] instead of calling a method
      */
-    subscript(index: Int) -> T? {
-        
-    }
+//    subscript(index: Int, k: Int) -> T? {
+        // sort the linked list? not sure if it's possible
+        // return value at the answer index
+        // return sorted[k -1]
+//    }
 }
 
 // Create nodes
-let node1 = List(value: 1)
-let node2 = List(value: 2)
-let node4 = List(value: 3)
+let node1 = List(value: 5)
+let node2 = List(value: 6)
+let node3 = List(value: 8)
 
 // Link nodes
 node1.next = node2
-node2.next = node4
+node2.next = node3
 
 // "!" force unwrap, "?" optional
-print(node1.first!)
+// this prints the value of the node that I'm calling on
+print(node3.first!)
 // changing node1 to node2, node3 and etc prints the next node
-print(node1.second!)
+print(node2.second!)
 
 

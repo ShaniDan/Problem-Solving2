@@ -31,4 +31,4 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     }
     return result
 }
-print(twoSum( [2,7,11,5], 9))
+//print(twoSum( [2,7,11,5], 9))
