@@ -25,9 +25,11 @@ class List<T> {
 extension List {
     var last: T? {
         // Macro #function
+        
         print(#function, "Current node: \(value)")
+        
         if let next = next {
-            // this one is calling the value recurse
+            // this one is calling the value recursively
             return next.last
         } else {
             return value

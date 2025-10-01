@@ -21,7 +21,7 @@ var greeting = "Hello, playground"
 
 // Define a linked list class with 2 properties value and next
 
-class List<T> {
+class List<T: Comparable> {
     var value: T
     var next: List?
     
@@ -41,16 +41,25 @@ extension List {
 }
 
 // MARK: This is how to move to the next node
-// I can use function instead extension
+// I can use function instead of variable closures
 extension List {
-    var second: T? {
-        //
+    // error says this is a property
+    func second() -> T? {
         if let nextNode = next {
             return nextNode.value
         } else {
             return nil
         }
     }
+    // this is a method?
+//    var second: T? {
+//        //
+//        if let nextNode = next {
+//            return nextNode.value
+//        } else {
+//            return nil
+//        }
+//    }
 }
 
 extension List {
@@ -58,8 +67,42 @@ extension List {
        Arrays and dictionaries already use it
      •    array[0] calls the subscript(_:) on Array.
      •    dictionary["key"] calls the subscript(_:) on Dictionary.
-     By adding it to the List, I make the linked list feel like an aray, so I can write list[2] instead of calling a method
+     By adding it to the List, I make the linked list feel like an array, so I can write list[2] instead of calling a method
      */
+    
+    // sort the linked list? not sure if it's possible
+    // sort is a method here
+    func sort() {
+        var swapped: Bool
+        repeat {
+            swapped = false
+            var current: List? = self
+            while let next = current?.next {
+                if current!.value > next.value {
+                    // swap values
+                    let temp = current!.value
+                    current!.value = next.value
+                    next.value = temp
+                    swapped = true
+                }
+                current = next
+            }
+        } while swapped
+    }
+    
+    func kth(_ k: Int) -> T? {
+        guard k > 0 else { return nil }
+        var current: List? = self
+        var index = 1
+        while let node = current {
+            if index == k {
+                return node.value
+            }
+            index += 1
+            current = node.next
+        }
+        return nil
+    }
 //    subscript(index: Int, k: Int) -> T? {
         // sort the linked list? not sure if it's possible
         // return value at the answer index
@@ -68,18 +111,24 @@ extension List {
 }
 
 // Create nodes
-let node1 = List(value: 5)
+let node1 = List(value: 11)
 let node2 = List(value: 6)
 let node3 = List(value: 8)
+let node4 = List(value: 1)
 
 // Link nodes
 node1.next = node2
 node2.next = node3
+node3.next = node4
 
 // "!" force unwrap, "?" optional
 // this prints the value of the node that I'm calling on
-print(node3.first!)
+//print(node3.first!)
 // changing node1 to node2, node3 and etc prints the next node
-print(node2.second!)
+print(node2.second()!)
+
+node1.sort()
+print(node1.value, node1.next!.value, node1.next!.next!.value)
+print(node1.kth(2)!)
 
 
