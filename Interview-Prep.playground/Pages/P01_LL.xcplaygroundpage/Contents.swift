@@ -26,7 +26,7 @@ extension List {
     var last: T? {
         // Macro #function
         
-        print(#function, "Current node: \(value)")
+//        print(#function, "Current node: \(value)")
         
         if let next = next {
             // this one is calling the value recursively
@@ -57,7 +57,7 @@ node4.next = node5
 node5.next = node6
 
 // Get the last element
-print(node1.last!)
+//print(node1.last!)
 
 
 
