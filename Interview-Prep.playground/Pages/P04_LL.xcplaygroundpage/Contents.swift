@@ -34,12 +34,14 @@ class List<T: Comparable> {
     }
 }
 
+// to traverse the linked list I need to follow the next pointers, not just a value
 extension List {
     var length: Int {
         // need to check if head is nil
-        guard var node = value else { return 0 }
-        var count = 1
-        while let next = next {
+        var current: List<T>? = self
+//        guard var current = current?.next else { return 0 }
+        var count = 0
+        while let next = current?.next {
             count += 1
         }
         return count
@@ -53,7 +55,6 @@ let node3 = List(value: 3)
 let node4 = List(value: 4)
 let node5 = List(value: 5)
 
-// I don't think I need to link nodes here
 node1.next = node2
 node2.next = node3
 node3.next = node4
