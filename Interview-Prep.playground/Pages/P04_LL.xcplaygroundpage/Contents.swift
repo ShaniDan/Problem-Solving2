@@ -41,10 +41,29 @@ extension List {
         var current: List<T>? = self
 //        guard var current = current?.next else { return 0 }
         var count = 0
-        while let next = current?.next {
+        while current != nil {
             count += 1
+            current = current?.next
         }
         return count
+    }
+}
+
+// if I want to use for loop
+
+extension List: Sequence {
+    func makeIterator() -> AnyIterator<List<T>> {
+        var current: List<T>? = self
+        return AnyIterator {
+            defer { current = current?.next }
+            return current
+        }
+    }
+    
+    var count: Int {
+        var countLL = 0
+        for _ in self { countLL += 1 }
+        return countLL
     }
 }
 
@@ -55,8 +74,11 @@ let node3 = List(value: 3)
 let node4 = List(value: 4)
 let node5 = List(value: 5)
 
+// this is how the nodes are chained
 node1.next = node2
 node2.next = node3
 node3.next = node4
+node4.next = node5
 
 print(node1.length)
+print(node1.count)
