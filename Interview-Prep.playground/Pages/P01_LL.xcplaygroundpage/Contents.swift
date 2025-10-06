@@ -29,7 +29,7 @@ extension List {
 //        print(#function, "Current node: \(value)")
         
         if let next = next {
-            // this one is calling the value recursively
+            // this is calling the value recursively
             return next.last
         } else {
             return value
