@@ -23,15 +23,10 @@ var greeting = "Hello, playground"
  */
 
 class List<T> {
-    var value: T?
-    var next: List?
-    //MARK: This way swift complains of not having a default value when creating nodes
-//    init(value: T, next: List?) {
-//        self.value = value
-//        self.next = next
-//    }
-    // MARK: This way I'm assigning a default value of nil and that's why swift knows that the value = 1 and next just takes its default value (nil)
-    init(value: T? = nil, next: List? = nil) {
+    var value: T
+    var next: List<T>?
+    
+    init(value: T, next: List<T>? = nil) {
         self.value = value
         self.next = next
     }
@@ -40,6 +35,9 @@ class List<T> {
 extension List where T: Comparable {
     
     func last() -> List<T> {
+        
+        print(#function, "Current node: \(value)")
+        
         // define an empty node?
         var node: List<T>? = self
         while let next = node?.next {
@@ -50,12 +48,13 @@ extension List where T: Comparable {
     
     /// Convenience: last value
        func lastValue() -> T {
-           last().value!
+           last().value
        }
 
        /// Reverse the list starting at `self` and return the **new head**.
        /// (Because classes are reference types, this mutates links of the chain.)
        func reversedHead() -> List<T> {
+           print(#function, "Current node: \(value)")
            var prev: List<T>? = nil
            var current: List<T>? = self
            while let node = current {
@@ -86,6 +85,6 @@ node5.next = node6
 
 print(node1.lastValue())            // 3
 let head2 = node1.reversedHead()    // list is now 3 -> 2 -> 1
-print(head2.value!)               // 3
-print(head2.next!.value!)         // 2
-print(head2.next!.next!.value!)   // 1
+print(head2.value)               // 3
+print(head2.next!.value)         // 2
+print(head2.next!.next!.value)   // 1

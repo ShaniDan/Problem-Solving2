@@ -21,3 +21,19 @@ var greeting = "Hello, playground"
      }
  }
  */
+
+class List<T> {
+    var value: T
+    var next: List<T>?
+    
+    init(value: T, next: List<T>?) {
+        self.value = value
+        self.next = next
+    }
+}
+
+extension List {
+    func flatten() {
+        
+    }
+}

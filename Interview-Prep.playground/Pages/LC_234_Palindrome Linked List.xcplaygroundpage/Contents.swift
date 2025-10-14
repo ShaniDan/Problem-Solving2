@@ -77,8 +77,8 @@ for value in input {
     
 }
 
-class Solution {
-    func isPalindrome(_ head: SinglyLinkedList?) -> Bool {
-        
-    }
-}
+//class Solution {
+//    func isPalindrome(_ head: SinglyLinkedList?) -> Bool {
+//        
+//    }
+//}
