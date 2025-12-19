@@ -6,25 +6,6 @@ var greeting = "Hello, playground"
 
 //: [Next](@next)
 
-//class Solution {
-
-//    func parseTxt(_ input: [String]) -> [String] {
-//        var lines = ""
-//
-//        guard let path = Bundle.main.path(forResource: "2_2025", ofType: "txt") else {
-//            print("File not found")
-//            return []
-//        }
-//
-//            do {
-//               let data = try String(contentsOfFile: path, encoding: .utf8)
-//                return [data]
-//            } catch {
-//                print(error.localizedDescription)
-//            }
-//        return []
-//    }
-
 /*
  Your job is to find all of the invalid IDs that appear in the given ranges. In the above example:
 
