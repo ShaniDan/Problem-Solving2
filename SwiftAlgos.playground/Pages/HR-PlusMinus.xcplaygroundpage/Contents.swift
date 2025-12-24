@@ -5,6 +5,29 @@ import Foundation
 var greeting = "Hello, playground"
 
 //: [Next](@next)
+/*
+ Given an array of integers, calculate the ratios of its elements that are , , and . Print the decimal value of each fraction on a new line with 6 places after the decimal.
+
+ Note: This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to  are acceptable.
+
+ Example
+
+ There are  elements: two positive, two negative and one zero. Their ratios are ,  and . Results are printed as:
+
+ 0.400000
+ 0.400000
+ 0.200000Given an array of integers, calculate the ratios of its elements that are , , and . Print the decimal value of each fraction on a new line with 6 places after the decimal.
+ 
+ Note: This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to  are acceptable.
+
+ Example
+
+ There are  elements: two positive, two negative and one zero. Their ratios are ,  and . Results are printed as:
+
+ 0.400000
+ 0.400000
+ 0.200000
+ */
 
 func plusMinus(arr: [Int]) -> Void {
     // Write your code here
