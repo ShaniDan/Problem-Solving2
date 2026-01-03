@@ -20,14 +20,31 @@ var greeting = "Hello, playground"
  */
 
 func timeConversion(s: String) -> String {
+    var inputString = s
     var result = String()
  
         if s.hasSuffix("PM") {
-            let numberHour = Int(s)
-            print(numberHour!)
-            let convertedHour = numberHour! + 12
+            var separator = s.split(separator: ":")
+            if (Int(separator.first!) ?? 0) < 12 {
+                var converted = (Int(separator.first!) ?? 0) + 12
+                let start = inputString.startIndex
+                let end = inputString.index(start, offsetBy: 2)
+                let range = start..<end
+                inputString.replaceSubrange(range, with: String(converted))
+            }
+    } else if s.hasSuffix("AM") {
+        var separator = s.split(separator: ":")
+        if (Int(separator.first!) ?? 0) == 12 {
+            var separator = s.split(separator: ":")
+            let start = inputString.startIndex
+            let end = inputString.index(start, offsetBy: 2)
+            let range = start..<end
+            inputString.replaceSubrange(range, with: "00")
+        }
     }
+    result = inputString.replacingOccurrences(of: "PM", with: "")
+        .replacingOccurrences(of: "AM", with: "")
     return result
 }
 
-print(timeConversion(s: "07:05:45PM"))
+print(timeConversion(s: "12:45:54PM"))
