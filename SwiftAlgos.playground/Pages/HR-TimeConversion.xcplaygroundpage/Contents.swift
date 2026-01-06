@@ -47,4 +47,4 @@ func timeConversion(s: String) -> String {
     return result
 }
 
-print(timeConversion(s: "12:45:54PM"))
+//print(timeConversion(s: "12:45:54PM"))
