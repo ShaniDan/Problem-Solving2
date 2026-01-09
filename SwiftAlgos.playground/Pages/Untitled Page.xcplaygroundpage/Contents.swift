@@ -18,9 +18,7 @@ print(firstMusic)
 var secondMusic = firstMusic
 // changing the value of the property title in the Music object(struct)
 secondMusic.title = "ALTR"
-print(secondMusic)
 // this one is unchanged, because it's copied
-print(firstMusic)
 
 
 class Diet {

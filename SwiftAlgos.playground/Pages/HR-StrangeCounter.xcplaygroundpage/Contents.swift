@@ -44,5 +44,5 @@ func strangeCounter2(t: Int) -> Int {
 //print(strangeCounter2(t: 3))
 //print(strangeCounter2(t: 4))
 //print(strangeCounter2(t: 9))
-print(strangeCounter2(t: 15))
+strangeCounter2(t: 15)
 //print(strangeCounter2(t: 99999997668))
