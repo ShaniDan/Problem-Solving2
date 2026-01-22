@@ -45,5 +45,43 @@ print(secondDiet)
 print(firstDiet)
 
 
+// struct value type, values are copied
+struct Animal {
+    var name: String
+    var type: String
+}
 
+var firstAnimal = Animal(name: "Lion", type: "Carnivore")
+print(firstAnimal)
+var secondAnimal = firstAnimal
+secondAnimal.name = "Tiger"
+//value is changed
+print(secondAnimal)
+//value is not changed
+print(firstAnimal)
 
+//class is a reference type and the values are referenced (changed)
+class Animal2 {
+    var name2: String
+    var type2: String
+    
+    init(name2: String, type2: String) {
+        self.name2 = name2
+        self.type2 = type2
+    }
+}
+
+extension Animal2: CustomStringConvertible {
+    var description: String {
+        "Name: \(name2), \(type2)"
+    }
+}
+
+var firstAnimal2 = Animal2(name2: "Jiraffe", type2: "Herbivore")
+print(firstAnimal2)
+var secondAnimal2 = firstAnimal2
+secondAnimal2.name2 = "rabbit"
+// value is changed
+print(secondAnimal2)
+// value is changed beause it's a class
+print(firstAnimal2)
