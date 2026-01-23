@@ -61,6 +61,7 @@ print(secondAnimal)
 print(firstAnimal)
 
 //class is a reference type and the values are referenced (changed)
+// calsses have inheritence
 class Animal2 {
     var name2: String
     var type2: String
