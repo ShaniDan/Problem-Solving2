@@ -4,6 +4,14 @@ import Foundation
 
 var greeting = "Hello, playground"
 
+/*
+ Lily likes to play games with integers. She has created a new game where she determines the difference between a number and its reverse. For instance, given the number , its reverse is . Their difference is . The number  reversed is , and their difference is .
+
+ She decides to apply her game to decision making. She will look at a numbered range of days and will only go to a movie on a beautiful day.
+
+ Given a range of numbered days,  and a number , determine the number of days in the range that are beautiful. Beautiful numbers are defined as numbers where  is evenly divisible by . If a day's value is a beautiful number, it is a beautiful day. Return the number of beautiful days in the range.
+ */
+
 //: [Next](@next)
 func beautifulDays(i: Int, j: Int, k: Int) -> Int {
     var result = 0
@@ -12,16 +20,15 @@ func beautifulDays(i: Int, j: Int, k: Int) -> Int {
     days.append(i)
     days.append(j)
     days.append(k)
-    print(days)
-    for number in days {
+    for number in i...j {
         var stringNumber = String(number)
         var reversed = String(stringNumber.reversed())
         var difference = number - Int(reversed)!
-        print(difference)
-        if difference % 2 == 0 {
+        if difference % k == 0 {
+            print(number)
             result += 1
         }
     }
     return result
 }
-print(beautifulDays(i: 20, j: 23, k: 6))
+print(beautifulDays(i: 1, j: 20, k: 230))
