@@ -30,13 +30,3 @@ func circularArrayRotation(a: [Int], k: Int, queries: [Int]) -> [Int] {
 }
 print(circularArrayRotation(a: [3, 4, 5], k: 2, queries: [1,2]))
 
-
-//Recursive
-
-func circularArrayRotation2(a: [Int], k: Int, queries: [Int]) -> [Int] {
-    var result = [Int]()
-    
-    return result
-    
-}
-print(circularArrayRotation2(a: [3, 4, 5], k: 2, queries: [1,2]))
