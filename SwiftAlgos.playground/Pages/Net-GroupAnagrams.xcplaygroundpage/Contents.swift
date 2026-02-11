@@ -28,14 +28,14 @@ print(newNumber)
 
 //https://www.educative.io/courses/decode-the-coding-interview-swift/diy-group-anagrams
 func groupAnagrams(strs: Set<String>, groups: inout Set<Set<String>>) {
-    var anagram = [String]()
+    var anagram = [[String]]()
     // loop over
     for string1 in strs {
         for string2 in strs {
             // check if the character in the first string is the same as the character in the next string
             if string1.sorted() == string2.sorted() {
                 // if it's the same add it to anagram array
-                anagram.append(string1)
+                anagram.append([string1])
             }
         }
     }
@@ -66,3 +66,12 @@ if let match = setting.firstMatch(of: keyAndValue) {
     print("Value: \(match.2)")
 }
     
+func oneMore(than number: Int) -> Int {
+    return number + 1
+}
+
+// Defining a new variable
+var myNumber = 1
+myNumber = oneMore(than: myNumber)
+print(myNumber)
+
