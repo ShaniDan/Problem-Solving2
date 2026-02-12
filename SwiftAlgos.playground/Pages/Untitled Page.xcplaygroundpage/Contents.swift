@@ -84,5 +84,5 @@ var secondAnimal2 = firstAnimal2
 secondAnimal2.name2 = "rabbit"
 // value is changed
 print(secondAnimal2)
-// value is changed beause it's a class
+// value is changed because it's a class
 print(firstAnimal2)
