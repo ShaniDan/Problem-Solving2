@@ -13,6 +13,7 @@ func doubleInPlace(number: inout Int) {
 }
 
 var myNum = 10
+
 print(doubleInPlace(number: &myNum))
 print(myNum)
 
