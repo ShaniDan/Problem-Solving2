@@ -8,26 +8,24 @@ var greeting = "Hello, playground"
 
 func mergeHighDefinitionIntervals(intervals: [[Int]]) -> [[Int]] {
     var result = [[Int]]()
-    var test = [Int]()
     
-    for array in intervals {
-        for number in array {
-            test.append(number)
-        }
-    }
-    var notValid: [Int] = [test[0]]
-    for num in 1..<test.count {
-        if test[num] > test[num-1] {
-            notValid.append(test[num])
+    let flatIntervals = intervals.flatMap { $0 }
+    print(flatIntervals)
+    
+    var valid: [Int] = [flatIntervals[0]]
+    
+    for num in 2..<flatIntervals.count {
+        if flatIntervals[num] > flatIntervals[num-1] {
+            valid.append(flatIntervals[num])
         }
     }
     
-    for i in stride(from: 0, to: notValid.count, by: 2) {
-        let pair = [notValid[i], notValid[i+1]]
+    for i in stride(from: 0, to: valid.count, by: 2) {
+        let pair = [valid[i], valid[i+1]]
         result.append(pair)
     }
-    print(test)
-    print(notValid)
+    print(valid)
     return result
 }
 print(mergeHighDefinitionIntervals(intervals: [[1, 3], [2, 6], [8, 10], [15, 18]]))
+
