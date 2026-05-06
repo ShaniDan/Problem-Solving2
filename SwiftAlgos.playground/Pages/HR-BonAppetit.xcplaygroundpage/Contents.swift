@@ -4,7 +4,7 @@ import Foundation
 
 var greeting = "Hello, playground"
 
-// TODO: Need to work on this challenge
+// TODO: 
 // https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true
 
 func bonAppetit(bill: [Int], k: Int, b: Int) -> Void {
