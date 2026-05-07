@@ -6,21 +6,25 @@ var greeting = "Hello, playground"
 
 //: [Next](@next)
 // https://www.hackerrank.com/challenges/append-and-delete/problem?isFullScreen=true
+// Some test cases are passing but some not passing
 
 func appendAndDelete(s: String, t: String, k: Int) -> String {
-    var result = "Yes"
     var count = 0
-    var sMut = s
-    for charS in s {
-        for charT in t {
-            if charS != charT {
-                sMut.filter { $0 != charS }
-                count += 1
-            }
+    for (charS, charT) in zip(s, t) {
+        if charS == charT {
+            count += 1
+        } else {
+            break
         }
-        count += 1
     }
-    print(s)
-    return result
+    let deletes = s.count - count
+    let appends = t.count - count
+    let total = deletes + appends
+    
+    guard total == k else {
+        return "No"
+    }
+    return "Yes"
 }
-print(appendAndDelete(s: "a,b,c", t: "e,d,f", k: 6))
+    
+print(appendAndDelete(s: "abc", t: "def", k: 6))
