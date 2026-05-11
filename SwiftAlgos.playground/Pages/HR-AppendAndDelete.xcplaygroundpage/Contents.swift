@@ -25,6 +25,5 @@ func appendAndDelete(s: String, t: String, k: Int) -> String {
         return "No"
     }
     return "Yes"
-}
-    
+}    
 print(appendAndDelete(s: "abc", t: "def", k: 6))
