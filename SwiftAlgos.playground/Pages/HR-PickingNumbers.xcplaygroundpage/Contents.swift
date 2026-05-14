@@ -9,6 +9,7 @@ var greeting = "Hello, playground"
 func pickingNumbers(a: [Int]) -> Int {
     let middle = a.count / 2
     let firstHalf = Array(a[..<middle])
+    print(firstHalf)
     let secondHalf = Array(a[middle...])
     
     return max(firstHalf.count, secondHalf.count)
