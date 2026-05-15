@@ -14,12 +14,20 @@ func permutationEquation(p: [Int]) -> [Int] {
 //    mutP.insert(last, at: 0)
 //    print(mutP)
     
-    var dict = [Int: Int]()
+    var position = [Int: Int]()
     
     for (index, value) in p.enumerated() {
-        dict[index + 1] = value
+        position[value] = index + 1
     }
-    print(dict)
+    print(position)
+    for x in 1...p.count {
+        let first = position[x]!
+        print("x:", x, "-> 1", first)
+        let second = position[first]!
+        print("x:", x, "-> 2", second)
+
+    }
+   
     return result
 }
 print(permutationEquation(p: [5,2,1,3,4]))
