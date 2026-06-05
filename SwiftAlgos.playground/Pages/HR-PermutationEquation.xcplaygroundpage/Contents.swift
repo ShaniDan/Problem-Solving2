@@ -27,7 +27,12 @@ func permutationEquation(p: [Int]) -> [Int] {
         print("x:", x, "-> 2", second)
 
     }
-   
     return result
 }
 print(permutationEquation(p: [5,2,1,3,4]))
+
+// key is p array elements
+// [5:1,2:2,1:3,3:4,4:5]
+
+//position, value
+//[1,2,3,4,5]
