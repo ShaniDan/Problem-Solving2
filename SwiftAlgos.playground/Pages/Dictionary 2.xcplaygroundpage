@@ -48,8 +48,6 @@ Swap all keys and values in a [String: Int] dictionary to get a [Int: String]. *
 var phone: [String: Int] = [:]
 phone["Anna"] = 123
 phone["Steve"] = 456
-phone.reduce(into: [Int: String]) { result, pair in
+let invertedPhone = phone.reduce(into: [Int: String]()) { result, pair in
     result[pair.value] = pair.key
 }
-
-
