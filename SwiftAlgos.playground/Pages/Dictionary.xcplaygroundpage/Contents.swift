@@ -46,10 +46,11 @@ if let phone = phoneBook[""] {
 /* 3. Invert a dictionary
 Swap all keys and values in a [String: Int] dictionary to get a [Int: String]. */
 var phone: [String: Int] = [:]
-phone["Anna"] = 123
-phone["Steve"] = 456
-phone.reduce(into: [Int: String]) { result, pair in
-    result[pair.value] = pair.key
+phone["888"] = 123
+phone["000"] = 456
+
+var inverted: [Int: String] = [:]
+for (key, value) in phone {
+    inverted[value] = key
 }
-
-
+print(inverted)
