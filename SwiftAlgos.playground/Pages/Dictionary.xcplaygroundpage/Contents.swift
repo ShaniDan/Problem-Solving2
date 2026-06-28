@@ -54,3 +54,28 @@ for (key, value) in phone {
     inverted[value] = key
 }
 print(inverted)
+
+
+func wordFrequency(_ s: String) -> [String: Int] {
+    var dict: [String: Int] = [:]
+    let words = s.components(separatedBy: " ")
+    for word in words {
+        dict[word, default: 0] += 1
+    }
+    return dict
+}
+print(wordFrequency("apple banana apple cherry banana apple"))
+
+
+func wordFreq(_ s: String) -> [(key: String, value: Int)] {
+    var dict: [String: Int] = [:]
+    let words = s.components(separatedBy: " ").filter { !$0.isEmpty }
+    print("WORDS \(words)")
+    for word in words {
+        dict[word, default: 0] += 1
+    }
+    let sortedValues = dict.sorted { $0.value < $1.value }
+    print(sortedValues)
+    return sortedValues
+}
+print(wordFreq("apple banana apple cherry banana apple"))
