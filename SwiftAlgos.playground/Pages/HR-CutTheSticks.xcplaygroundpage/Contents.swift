@@ -11,12 +11,12 @@ func cutTheSticks(arr: [Int]) -> [Int] {
     var smallest = arr.min()
     for num in arr {
         var result = num - (smallest ?? 0)
-        if num == 0 {
-//            arr.removeAll(where: 0)
+        if result == 0 {
+           arr.filter(){$0 != 0}
         }
-        print(result)
+//        print(removedZero)
         numberOfCuts += 1
-        result1.append(numberOfCuts)
+        result1.append(result)
     }
     return result1.sorted {$0 > $1}
 }
