@@ -50,3 +50,4 @@ func printList(_ head: Node?) {
 }
 
 printList(reverseList(node1)) // 3 -> 2 -> 1 -> nil
+

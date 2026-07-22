@@ -25,6 +25,9 @@ func biggerIsGreater(w: String) -> String {
     
     print(w.endIndex)
     
+    let index2 = w.firstIndex(of: "b") ?? w.endIndex
+    print(index2)
+    
     for index in w.indices {
         print(w[index])
     }
