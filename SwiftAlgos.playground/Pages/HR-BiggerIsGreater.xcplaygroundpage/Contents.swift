@@ -8,7 +8,8 @@ let greeting = "Hello, world!"
 let index = greeting.firstIndex(of: ",") ?? greeting.endIndex
 print(index)
 let beginning = greeting[..<index]
-print(beginning)
+let beginning2 = greeting[index]
+print(beginning2)
 let newString = String(beginning)
 print(newString)
 
@@ -23,14 +24,18 @@ func biggerIsGreater(w: String) -> String {
     // the smallest word that meets the first condition
     // swap the last letter
     
-    print(w.endIndex)
+    var end = w.endIndex
+    var beforeEnd = w.index(w.endIndex, offsetBy: -1)
+    var characters = Array(w)
+    let lastCharacter = characters.count - 1
+    let beforeLastChar = characters.count - 2
+    characters.swapAt(lastCharacter, beforeLastChar)
     
-    let index2 = w.firstIndex(of: "b") ?? w.endIndex
-    print(index2)
-    
+    print(characters)
     for index in w.indices {
-        print(w[index])
+//        print(w[index])
+        
     }
     return ""
 }
-print(biggerIsGreater(w: "abcd"))
+print(biggerIsGreater(w: "abcde"))
