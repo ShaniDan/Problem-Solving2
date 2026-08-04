@@ -1,6 +1,7 @@
 //: [Previous](@previous)
 
 import Foundation
+import SwiftUI
 
 var greeting = "Hello, playground"
 
@@ -32,4 +33,30 @@ do {
     print(division)
 } catch {
     print("Error: Cannot divide by zero")
+}
+
+// Custom Error Messages
+enum AppError: Error, CustomStringConvertible {
+    case networkFailed(Int)
+    case parseError(String)
+    
+    var description: String {
+        switch self {
+        case .networkFailed(let code):
+            return "Network error: \(code)"
+        case .parseError(let detail):
+            return "Parse failed: \(detail)"
+        }
+    }
+}
+
+func fetchData(from url: String) throws -> String {
+    throw AppError.networkFailed(404)
+}
+
+do {
+   let data = try fetchData(from: "some api")
+    print(data)
+} catch let error as AppError  {
+    print(error.description)
 }
