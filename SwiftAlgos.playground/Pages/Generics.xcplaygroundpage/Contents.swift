@@ -19,3 +19,8 @@ let result = (firstAndLast([10, 20, 30]))
 // this needs to be unwrapped or default provided because it's defined as optional
 print(result.first!)
 print(result.last!)
+
+func largest<T: Comparable>(_ array: [T]) -> T? {
+    return array.max()
+}
+print(largest([3,7,2,9,4]))
