@@ -1,6 +1,7 @@
 //: [Previous](@previous)
 
 import Foundation
+import SwiftUI
 
 var greeting = "Hello, playground"
 
@@ -10,8 +11,14 @@ var greeting = "Hello, playground"
  Closures are reference types that capture variables from their enclosing scope
  */
 // Closures capture variables from their surrounding scope:
+typealias Mikaela = () -> Int
 
-func makeCounter() -> () -> Int {
+func blah () -> Int {
+    return 0
+}
+
+typealias Colour = Color
+func makeCounter() -> Mikaela {
     var count = 0
     return {
         count += 1
@@ -75,3 +82,19 @@ func makeMultiplier(_ num: Int) -> (Int) -> Int {
 
 let tripler = makeMultiplier(3)
 print(tripler(7))
+
+
+var fruits = ["apple", "blueberry", "orange", "kiwi"]
+
+for fruit in fruits {
+    if fruit.contains("a") {
+        print(fruit)
+    }
+}
+
+// gives a new array
+print(fruits.filter { $0.contains("a")})
+
+fruits.filter { fruit in
+    fruit.contains("a")
+}
