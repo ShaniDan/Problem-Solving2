@@ -37,15 +37,15 @@ do {
 
 
 enum DivisionError: Error {
-    case divisionByZero
+    case divisionByZero(String)
 }
 // Create divide function
 func divide(_ a: Double, _ b: Double) -> Result<Double, DivisionError> {
-    guard b != 0 else { return .failure(.divisionByZero) }
+    guard b != 0 else { return .failure(.divisionByZero("Nope")) }
     return .success(a / b)
 }
 // Test it
-switch divide(10, 3) {
+switch divide(10, 0) {
 case .success(let value):
     print(String(format: "%.4f", value))
 case .failure(let error):
